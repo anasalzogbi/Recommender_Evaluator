@@ -1,16 +1,14 @@
 Albert-Ludwigs-Universitaet Freiburg  
 Database and Information Systems group  
-Georges-koehler-Allee 51, 79110 Freiburg, Germany  
+Germany  
+
 Anas Alzogbi  
 email: <alzoghba@informatik.uni-freiburg.de>  
 
 
-
-This project provides a python implementation for the split and 
-evaluation [system](https://github.com/blei-lab/ctr) used in the work of 
-[Collaborative Topic Regression (CTR)](http://www.cs.princeton.edu/~chongw/papers/WangBlei2011.pdf). The purpose of this system is to 
-separate the offline evaluation task from model building. It provides 
-the following functionality:  
+# Recommender Evaluator System
+This project provides an evaluation system for conducting offline evaluations for recommender systems. We used it to evaluate the [T-CTR Recommender System](https://github.com/anasalzogbi/T-CTR)  The purpose of this system is to 
+separate the offline evaluation task from model building. It provides  the following functionality:  
 1. Splitting a given users' ratings based on several split methods (Currently supported split methods are: in-matrix-item based, in-matrix-user based, outof-matrix item based and time-aware split) into training and test datasets;
 2. Evaluating recommendation predictions over the test dataset based on several evaluation metrics (Currently supported metrics: recall, ndcg, mrr)
 
