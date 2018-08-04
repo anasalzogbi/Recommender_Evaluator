@@ -1,11 +1,3 @@
-Albert-Ludwigs-Universitaet Freiburg  
-Database and Information Systems group  
-Germany  
-
-Anas Alzogbi  
-email: <alzoghba@informatik.uni-freiburg.de>  
-
-
 # Recommender Evaluator System
 This project provides an evaluation system for conducting offline evaluations for recommender systems. We used it to evaluate the [T-CTR Recommender System](https://github.com/anasalzogbi/T-CTR)  The purpose of this system is to 
 separate the offline evaluation task from model building. It provides  the following functionality:  
